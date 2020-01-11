@@ -1,0 +1,81 @@
+/* Importing Normalize css */
+@import url("normalize.css");
+div {
+    width: 70%;
+    height: 700px;
+    border: 2px solid black;
+}
+body{
+    background-color: #E83E62;
+    font:  'Bungee', Helvetica, Arial, sans-serif;
+    color: blanchedalmond;
+}
+h1 {
+    background-color: #B02938;
+    font-size: 55px;
+    font-weight: 800;
+    color: blanchedalmond;
+}
+div {
+    margin: 2rem, 0;
+}
+.click {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 25px;
+}
+
+.click:hover {
+    padding-right: 50px;
+  }
+  
+  .click:hover {
+    opacity: 1;
+    right: 0;
+  }
+p {
+    font-size: 2rem;
+    font-family: 'Bungee Shade', cursive;
+    color: rgb(255, 250, 243);
+    font-weight: 700;
+}
+#timesubmit {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 400px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 25px;
+}
+#timesubmit:hover {
+    padding-right: 50px;
+  }
+  
+  #timesubmit:hover {
+    opacity: 1;
+    right: 0;
+  }
+input {
+    color: black;
+    font-weight: 800;
+    padding: .5rem .5rem;
+}
+#calculateddue {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
